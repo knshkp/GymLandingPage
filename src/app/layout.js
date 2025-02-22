@@ -1,5 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { Outfit } from "next/font/google"; // ✅ Import Outfit
 import "./globals.css";
+
+// ✅ Define Outfit font
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} antialiased`}
       >
         {children}
       </body>

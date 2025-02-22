@@ -1,5 +1,6 @@
 import ThreeDCardDemo from "./threeCard";
 import Hover from "./hover"
+import Staff from "./Staff";
 export default function Membership(){
     return(
     <div>
@@ -9,6 +10,7 @@ export default function Membership(){
         <ThreeDCardDemo/>
         <ThreeDCardDemo/> */}
         <Hover/>
+        
         <div>
             
         </div>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import first from "../../../public/first.png";
 import Advantage from "./advantage";
 import Membership from "./membership";
+import Staff from "./Staff";
 
 export default function Main() {
   return (
@@ -50,6 +51,7 @@ export default function Main() {
       {/* Advantage Section */}
       <Advantage />
       <Membership/>
+      <Staff/>
     </>
   );
 }

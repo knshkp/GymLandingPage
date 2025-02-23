@@ -4,15 +4,17 @@ import first from "../../../public/first.png";
 import Advantage from "./advantage";
 import Membership from "./membership";
 import Staff from "./Staff";
-
+import AnimatedTestimonialsDemo from "./reviewacternity";
+import Facility from "./Facility";
+import { ParallaxScrollDemo } from "./GymImages";
 export default function Main() {
   return (
     <>
       {/* Navbar */}
-      <div className="mt-[40px] flex flex-wrap items-center justify-between px-4 md:px-[7%] font-outfit">
-        <div className="flex space-x-2">
-            <Image className="w-[70px] h-[70px]" alt="logo" src={Logo} />
-            <h1 className="text-[24px] font-semibold mt-4"> Ram's Fitness Impact Club</h1>
+      <div className="fixed top-0 left-0 w-full z-50 flex flex-wrap items-center justify-between px-4 md:px-[7%] font-outfit bg-black py-4">
+        <div className="flex space-x-2 items-center">
+          <Image src={Logo} alt="logo" width={70} height={70} />
+          <h1 className="text-[24px] font-semibold">Ram's Fitness Impact Club</h1>
         </div>
         <div className="hidden md:flex space-x-[40px] text-[18px] font-bold">
           <h1>Home</h1>
@@ -26,13 +28,16 @@ export default function Main() {
       </div>
 
       {/* Hero Section */}
-      <div className="mt-[60px] flex flex-col md:flex-row items-center px-4 md:px-[7%]">
+      <div className="relative mt-[80px] flex flex-col md:flex-row items-center px-4 md:px-[7%] bg-[url('/first.png')] bg-cover bg-center">
+        {/* Blur Overlay for Left Side */}
+        <div className="absolute left-0 top-0 w-1/2 h-full bg-black/30 backdrop-blur-[2px] rounded-r-2xl"></div>
+
         {/* Left Text */}
-        <div className="text-center md:text-left">
+        <div className="relative z-10 text-center md:text-left text-white w-full md:w-1/2 p-6">
           <h1 className="text-[10vw] md:text-[87px] font-outfit">
-            make your
+            MAKE YOUR
             <br />
-            <span className="font-bold">BODY SHAPE</span>
+            <span className="font-bold text-yellow-300">BODY SHAPE</span>
           </h1>
           <p className="w-full md:w-[500px] text-[16px] md:text-[18px] mt-4 text-gray-300">
             Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities.
@@ -41,17 +46,15 @@ export default function Main() {
             <h1 className="text-black text-[20px]">Get Started</h1>
           </div>
         </div>
-
-        {/* Right Image */}
-        <div className="mt-8 md:mt-0 md:ml-[50px]">
-          <Image src={first} alt="firstImage" className="w-full md:w-[600px] h-auto" />
-        </div>
       </div>
 
-      {/* Advantage Section */}
+      {/* Sections */}
       <Advantage />
-      <Membership/>
-      <Staff/>
+      <Membership />
+      <Staff />
+      <AnimatedTestimonialsDemo />
+      <Facility />
+      <ParallaxScrollDemo />
     </>
   );
 }

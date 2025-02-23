@@ -12,7 +12,7 @@ export const HoverEffect = ({
 
   return (
     (<div
-      className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10", className)}>
+      className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-10", className)}>
       {items.map((item, idx) => (
         <Link
           href={item?.link}
@@ -63,11 +63,11 @@ export const Card = ({
   return (
     (<div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-gray-600 dark:border-white/[0.2] group-hover:border-gray-700 relative z-20",
+        " justify-self-center rounded-2xl h-full w-full p-4 overflow-hidden bg-[#0f0f0f] hover:bg-black border border-gray-600 dark:border-white/[0.2] group-hover:border-gray-700 relative z-20",
         className
       )}>
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="p-4 justify-self-center">{children}</div>
       </div>
     </div>)
   );

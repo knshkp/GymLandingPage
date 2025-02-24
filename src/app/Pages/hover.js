@@ -17,14 +17,14 @@ export const projects = [
     link: "https://google.com",
   },
   {
-    title:"3Month Membership",
+    title:"3-Month Membership",
     price:5000,
     description:
       "A multinational technology company that specializes in Internet-related services and products.",
     link: "https://meta.com",
   },
   {
-    title: "HalfYearly",
+    title: "Half-Yearly Membership",
     price:7000,
     description:
       "A technology company that builds economic infrastructure for the internet.",

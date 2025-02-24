@@ -5,6 +5,7 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import DavidLaid from "../../../public/david-laid.jpg"
+import Gymtrainer from "../../../public/gymtrainer2.jpeg"
 export const DirectionAwareHover = ({
   imageUrl,
   children,

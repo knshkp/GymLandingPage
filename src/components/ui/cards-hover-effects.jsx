@@ -77,7 +77,7 @@ export const CardTitle = ({
   children
 }) => {
   return (
-    (<h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 justify-self-center", className)}>
+    (<h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 justify-self-center text-center", className)}>
       {children}
     </h4>)
   );
@@ -87,7 +87,7 @@ export const CardPrice= ({
   children
 }) => {
   return (
-    (<h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 justify-self-center", className)}>
+    (<h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 justify-self-center text-center", className)}>
       {children}
     </h4>)
   );
@@ -98,7 +98,7 @@ export const CardDescription = ({
 }) => {
   return (
     (<p
-      className={cn("mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm justify-self-center w-[90%]", className)}>
+      className={cn("mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm justify-self-center w-[90%] text-center h-10 overflow-hidden", className)}>
       {children}
     </p>)
   );

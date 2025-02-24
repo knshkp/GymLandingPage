@@ -1,3 +1,5 @@
+"use client";
+import { useState, useEffect } from "react";
 import Logo from "../../../public/logo.png";
 import Image from "next/image";
 import first from "../../../public/first.png";
@@ -7,7 +9,31 @@ import Staff from "./Staff";
 import AnimatedTestimonialsDemo from "./reviewacternity";
 import Facility from "./Facility";
 import { ParallaxScrollDemo } from "./GymImages";
+import FloatingNavDemo from "./navbar";
+
+// Loading Screen Component
+function LoadingScreen() {
+  return (
+    <div className="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black text-white z-50">
+      <Image src={Logo} alt="Loading Logo" width={120} height={120} />
+      <h1 className="text-3xl font-bold mt-4">Welcome to Ram's Fitness Impact Club</h1>
+      <div className="mt-6 w-20 h-20 border-t-4 border-yellow-300 rounded-full animate-spin"></div>
+    </div>
+  );
+}
+
 export default function Main() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <LoadingScreen />;
+
   return (
     <>
       {/* Navbar */}
@@ -26,13 +52,12 @@ export default function Main() {
           <h1>Sign up</h1>
         </div>
       </div>
+      {/* <FloatingNavDemo /> */}
 
       {/* Hero Section */}
       <div className="relative mt-[80px] flex flex-col md:flex-row items-center px-4 md:px-[7%] bg-[url('/first.png')] bg-cover bg-center">
-        {/* Blur Overlay for Left Side */}
         <div className="absolute left-0 top-0 w-1/2 h-full bg-black/30 backdrop-blur-[2px] rounded-r-2xl"></div>
 
-        {/* Left Text */}
         <div className="relative z-10 text-center md:text-left text-white w-full md:w-1/2 p-6">
           <h1 className="text-[10vw] md:text-[87px] font-outfit">
             MAKE YOUR
@@ -50,11 +75,11 @@ export default function Main() {
 
       {/* Sections */}
       <Advantage />
+      <ParallaxScrollDemo />
       <Membership />
       <Staff />
       <AnimatedTestimonialsDemo />
       <Facility />
-      <ParallaxScrollDemo />
     </>
   );
 }

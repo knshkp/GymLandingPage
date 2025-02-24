@@ -2,6 +2,7 @@ import ThreeDCardDemo from "./threeCard";
 import Hover from "./hover";
 import { DirectionAwareHoverDemo } from "./threeCard";
 
+
 export default function Staff() {
     return (
         <>
@@ -10,7 +11,7 @@ export default function Staff() {
 
                 {/* First flex container for the cards */}
                 <div className="flex flex-wrap justify-center gap-6"> 
-                    <DirectionAwareHoverDemo/>
+                    <DirectionAwareHoverDemo />
                     <DirectionAwareHoverDemo/>
                     <DirectionAwareHoverDemo/>
 

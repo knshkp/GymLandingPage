@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Logo from "../../../public/logo.png";
+import Logo from "../../../public/logoss.jpg";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { useState } from "react";
 
@@ -36,7 +36,7 @@ export default function Contact() {
         <div className="space-y-4">
           <h2 className="text-2xl font-semibold">Get in Touch</h2>
           <p className="text-gray-300">📍 123 Gym Street, Fitness City</p>
-          <p className="text-gray-300">📧 contact@ramsfitness.com</p>
+          <p className="text-gray-300">📧 contact@shotocan.com</p>
           <p className="text-gray-300">📞 +123 456 7890</p>
 
           {/* Social Media */}

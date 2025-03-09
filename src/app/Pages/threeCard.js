@@ -7,8 +7,8 @@ export function DirectionAwareHoverDemo() {
   return (
     (<div className="h-[40rem] relative  flex items-center justify-center">
       <DirectionAwareHover imageUrl={imageUrl}>
-        <p className="font-bold text-xl">David Laid</p>
-        <p className="font-normal text-sm">Gym Trainer</p>
+        <p className="font-bold text-xl">Surendra Singh</p>
+        <p className="font-normal text-sm">Karate Coach</p>
       </DirectionAwareHover>
     </div>)
   );

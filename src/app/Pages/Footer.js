@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../../../public/logo.png";
+import Logo from "../../../public/logoss.jpg";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Logo & Gym Name */}
         <div className="flex flex-col items-center md:items-start">
           <Image src={Logo} alt="Gym Logo" width={80} height={80} />
-          <h2 className="text-2xl font-bold mt-2">Ram's Fitness Impact Club</h2>
+          <h2 className="text-2xl font-bold mt-2">Shotokan Martialarts Academy</h2>
           <p className="text-gray-400 text-sm mt-2 text-center md:text-left">
             Transform your body, transform your life.
           </p>

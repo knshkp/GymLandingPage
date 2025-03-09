@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Logo from "../../../public/leslie-jones-urBiLDuUhMU-unsplash copy.jpg";
+import Logo from "../../../public/logoss.jpg";
 import Image from "next/image";
 import first from "../../../public/first.png";
 import Advantage from "./advantage";
@@ -56,19 +56,19 @@ export default function Main() {
       {/* <FloatingNavDemo /> */}
 
       {/* Hero Section */}
-      <div className="relative mt-[80px] flex flex-col md:flex-row items-center px-4 md:px-[7%] bg-[url('/first.png')] bg-cover bg-center">
+      <div className="relative mt-[80px] flex flex-col md:flex-row items-center px-4 md:px-[7%] bg-[url('/karatebgFirst.avif')] bg-cover bg-center">
         <div className="absolute left-0 top-0 w-1/2 h-full bg-black/30 backdrop-blur-[2px] rounded-r-2xl"></div>
 
         <div className="relative z-10 text-center md:text-left text-white w-full md:w-1/2 p-6">
           <h1 className="text-[10vw] md:text-[87px] font-outfit">
             MAKE YOURSELF
             <br />
-            <span className="font-bold text-yellow-300">FIGHTER</span>
+            <span className="font-bold text-[#007878]">FIGHTER</span>
           </h1>
           <p className="w-full md:w-[500px] text-[16px] md:text-[18px] mt-4 text-gray-300">
             Being physically active can improve your brain health, help manage weight, reduce the risk of disease, Self Defence , strengthen bones and muscles, and can fight in any situation, make yourself powerfull.
           </p>
-          <div className="w-[200px] h-[52px] mt-6 bg-[#fded00] rounded-[20px] flex items-center justify-center font-semibold mx-auto md:mx-0">
+          <div className="w-[200px] h-[52px] mt-6 bg-[#007878] rounded-[20px] flex items-center justify-center font-semibold mx-auto md:mx-0">
             <h1 className="text-black text-[20px]">Get Started</h1>
           </div>
         </div>

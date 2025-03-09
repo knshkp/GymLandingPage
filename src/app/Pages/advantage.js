@@ -19,9 +19,9 @@ export default function Advantage() {
         <div className="flex items-center gap-6">
           <Image className="w-[41px] h-[52px]" src={lineIcon} alt="line icon" />
           <div className="w-full md:w-[400px]">
-            <h1 className="text-[18px] font-bold">15000 sq m.</h1>
+            <h1 className="text-[18px] font-bold">Branches.</h1>
             <p className="text-[14px] text-gray-300">
-              A spacious gym for sports – a safe distance between exercise machines
+              A spacious Academy for sports – and have four branches suitable to your location.
             </p>
           </div>
         </div>
@@ -30,9 +30,9 @@ export default function Advantage() {
         <div className="flex items-center gap-6">
           <Image className="w-[41px] h-[52px]" src={equipementIcon} alt="equipment icon" />
           <div className="w-full md:w-[400px]">
-            <h1 className="text-[18px] font-bold">More than 50 Equipments</h1>
+            <h1 className="text-[18px] font-bold">More than 4 Combat Games</h1>
             <p className="text-[14px] text-gray-300">
-              Premium equipment from Bodyline and Fitline, featuring world-class machines.
+             Karate ,Grappling ,KickBoxing,etc.
             </p>
           </div>
         </div>
@@ -41,9 +41,9 @@ export default function Advantage() {
         <div className="flex items-center gap-6">
           <Image className="w-[41px] h-[52px]" src={timeIcon} alt="time icon" />
           <div className="w-full md:w-[400px]">
-            <h1 className="text-[18px] font-bold">4 Fitness Zones</h1>
+            <h1 className="text-[18px] font-bold">Specific Training Sessions</h1>
             <p className="text-[14px] text-gray-300">
-              Our gym features dedicated zones for cardio, strength, and functional training.
+              Our Academy features dedicated days for strength, technical training and functional training.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Advantage() {
           <div className="w-full md:w-[400px]">
             <h1 className="text-[18px] font-bold">Round the Clock Operations</h1>
             <p className="text-[14px] text-gray-300">
-              Open 24/7, allowing you to train at your convenience anytime.
+              More then two batches, allowing you to train at your convenience anytime.
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Logo from "../../../public/logoss.jpg";
+import Logo from "../../../public/lg.jpeg";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { useState } from "react";
 
@@ -35,9 +35,9 @@ export default function Contact() {
         {/* Contact Details */}
         <div className="space-y-4">
           <h2 className="text-2xl font-semibold">Get in Touch</h2>
-          <p className="text-gray-300">📍 123 Gym Street, Fitness City</p>
+          <p className="text-gray-300">📍 Aadhrsh vidhya mandir school, opp. baba property, Sector 26, Pratap Nagar, Jaipur, Rajasthan 302033</p>
           <p className="text-gray-300">📧 contact@shotocan.com</p>
-          <p className="text-gray-300">📞 +123 456 7890</p>
+          <p className="text-gray-300">📞 +91 74140 69375</p>
 
           {/* Social Media */}
           <div className="flex space-x-4 mt-4">
@@ -79,7 +79,7 @@ export default function Contact() {
               className="w-full p-3 bg-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
               rows="4"
             ></textarea>
-            <button type="submit" className="w-full bg-yellow-400 text-black font-semibold p-3 rounded-lg hover:bg-yellow-500">
+            <button type="submit" className="w-full bg-[#007878] text-black font-semibold p-3 rounded-lg hover:bg-blue-500">
               Send Message
             </button>
           </form>

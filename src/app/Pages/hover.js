@@ -11,28 +11,28 @@ export const projects = [
 
   {
     title: "1-Month Membership",
-    price:2000,
+    price:1500,
     description:
       "A multinational technology company that specializes in Internet-related services and products.",
     link: "https://google.com",
   },
   {
     title:"3-Month Membership",
-    price:5000,
+    price:4000,
     description:
       "A multinational technology company that specializes in Internet-related services and products.",
     link: "https://meta.com",
   },
   {
     title: "Half-Yearly Membership",
-    price:7000,
+    price:7200,
     description:
       "A technology company that builds economic infrastructure for the internet.",
     link: "https://stripe.com",
   },
   {
     title: "Yearly",
-    price:10000,
+    price:12000,
     description:
       "A streaming service that offers a wide variety of ",
     link: "https://netflix.com",

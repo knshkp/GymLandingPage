@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Logo from "../../../public/logoss.jpg";
+import Logo from "../../../public/lg.jpeg";
 import Image from "next/image";
 import first from "../../../public/first.png";
 import Advantage from "./advantage";

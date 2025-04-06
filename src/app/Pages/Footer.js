@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../../../public/logoss.jpg";
+import Logo from "../../../public/lg.jpeg";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {

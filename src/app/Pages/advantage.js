@@ -10,7 +10,7 @@ export default function Advantage() {
     <div className="mt-[100px] mx-[7%] text-white">
       {/* Title */}
       <h1 className="text-[36px] md:text-[48px] font-outfit text-center md:text-left">
-        Reasons to Join
+        Why Join Us?
       </h1>
 
       {/* Responsive Grid Layout */}

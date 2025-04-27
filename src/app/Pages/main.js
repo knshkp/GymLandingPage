@@ -19,7 +19,10 @@ function LoadingScreen() {
   return (
     <div className="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black text-white z-50">
       <Image src={Logo} alt="Loading Logo" width={120} height={120} />
-      <h1 className="text-3xl font-bold mt-4">Welcome to Shotokan Martialarts Academy</h1>
+      <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mt-4 text-center px-4">
+  Welcome to Shotokan Martialarts Academy
+</h1>
+
       <div className="mt-6 w-20 h-20 border-t-4 border-yellow-300 rounded-full animate-spin"></div>
     </div>
   );
@@ -48,7 +51,7 @@ export default function Main() {
         </div>
         <div className="hidden md:flex space-x-[40px] text-[18px] font-semibold">
           <h1>HOME</h1>
-          <h1 onClick={() => router.push("#")}>ABOUT US</h1>
+          <h1 onClick={() => router.push("# ")}>ABOUT US</h1>
           <h1 onClick={() => router.push("/contact.js")}>CONTACT US</h1>
           <h1>INFO</h1>
                   </div>

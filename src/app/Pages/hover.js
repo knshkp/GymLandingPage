@@ -13,7 +13,7 @@ export const projects = [
     title: "1-Month Membership",
     price:1500,
     description:"This package contains 1 month membership only . " ,
-    link: "https://google.com",
+    link: "",
   },
   {
     title:"3-Month Membership",

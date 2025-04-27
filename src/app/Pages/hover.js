@@ -19,21 +19,21 @@ export const projects = [
     title:"3-Month Membership",
     price:4000,
     description:"This package contains 3 months membership only . " ,
-    link: "https://meta.com",
+    link: "",
   },
   {
     title: "6- Month Membership",
     price:7200,
     description:
       "This package contains 6 months membership only ",
-    link: "https://stripe.com",
+    link: "",
   },
   {
     title: "Yearly",
     price:12000,
     description:
       "This package contains  membership for a year ",
-    link: "https://netflix.com",
+    link: "",
   },
   
 ];

@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import coach from "../../public/train.jpeg";
+import coach from "../../public/testimonials/coach3.jpeg";
 
 export const DirectionAwareHover2 = ({
   ImageUrl,
@@ -93,7 +93,7 @@ export const DirectionAwareHover2 = ({
             <Image
               alt="Coach Image"
               className={cn(
-                "h-full w-full object-cover scale-[1.25]",
+                "h-fit w-fit  object-cover scale-[1.05]",
                 imageClassName
               )}
               width="1000"

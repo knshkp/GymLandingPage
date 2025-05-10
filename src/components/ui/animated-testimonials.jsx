@@ -14,7 +14,7 @@ export const AnimatedTestimonials = ({
         "Best coaches , Make every Technique Easy to Learn ",
       name: "Netik Pareek",
       designation: "1st dan Black belt",
-      src: "/testimonials/review1.jpeg",
+      src: "/testimonials/d09347e3-3f03-46f1-a094-0282ccdd6f63.jpeg",
     },
     {
       quote:

@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import DavidLaid from "../../../public/train2.jpeg"
+import DavidLaid from "../../../public/testimonials/deepa1.jpeg"
 import Gymtrainer from "../../../public/train2.jpeg"
 export const DirectionAwareHover = ({
   Gymtrainer,
@@ -79,7 +79,7 @@ export const DirectionAwareHover = ({
             }}>
             <Image
               alt="image"
-              className={cn("h-fit w-fit object-cover scale-[1.15]", imageClassName)}
+              className={cn("h-fit w-fit object-cover scale-[1.05]", imageClassName)}
               width="1000"
               height="1000"
               src={DavidLaid} />

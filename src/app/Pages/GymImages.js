@@ -9,6 +9,7 @@ import gym6 from "../../../public/pic6.jpeg"
 import gym7 from "../../../public/pic7.jpeg"
 import gym8 from "../../../public/pic8.jpeg"
 import gym9 from "../../../public/image.png"
+import gym10 from "../../../public/img17.jpeg"
 export function ParallaxScrollDemo() {
   return(
     <>
@@ -29,19 +30,6 @@ const images = [
     gym7,
     gym8,
     gym9,
-    gym4, 
-    gym5,
-    gym6,
-    gym1,
-    gym2,
-    gym3,
-    gym4,
-    gym5,
-    gym6,
-    gym1,
-    gym2,
-    gym3,
-    gym4,
-    gym5,
-    gym6,
+    gym10, 
+   
 ];

@@ -7,42 +7,23 @@ export default function Facility(){
   </h1>
 
   {/* Facilities Grid */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-12 max-w-6xl mx-auto">
-    <div>
-      <h1>Certified Coaches</h1>
-    </div>
-    <div>
-      <h1>Dedicated Indoor Training Area</h1>
-    </div>
-
-    <div>
-      <h1>Technical & Strength Training Equipments</h1>
-    </div>
-    <div>
-      <h1>Custom Designed Functional Training System</h1>
-    </div>
-
-    <div>
-      <h1>Spacious Area to Practice</h1>
-    </div>
-    <div>
-      <h1>Vanity Area</h1>
-    </div>
-
-    <div>
-      <h1>Unlimited Access to Group Activities</h1>
-    </div>
-    <div>
-      <h1>Fitness Assessment & Testing (Regular Belt Grade Tracking)</h1>
-    </div>
-
-    <div>
-      <h1>Exercise Programming</h1>
-    </div>
-    <div>
-      <h1>Unlimited Free Diet Plans</h1>
-    </div>
-  </div>
+  {/* Facilities Grid */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-12 max-w-6xl mx-auto">
+  <ul className="space-y-8 list-disc list-inside">
+    <li>Certified Coaches</li>
+    <li>Dedicated Indoor Training Area</li>
+    <li>Technical & Strength Training Equipments</li>
+    <li>Custom Designed Functional Training System</li>
+    <li>Spacious Area to Practice</li>
+  </ul>
+  <ul className="space-y-8 list-disc list-inside">
+    <li>Vanity Area</li>
+    <li>Unlimited Access to Group Activities</li>
+    <li>Fitness Assessment & Testing (Regular Belt Grade Tracking)</li>
+    <li>Exercise Programming</li>
+    <li>Unlimited Free Diet Plans</li>
+  </ul>
+</div>
 </div>
 </>
 );
